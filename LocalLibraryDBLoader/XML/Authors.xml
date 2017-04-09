@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Contents of Authors table in LibraryInformation database-->
+<Authors>
+  <Author>
+    <ID>7</ID>
+    <Bio>Pro C# 5.0 and the .NET 4.5 Framework Sixth Edition</Bio>
+  </Author>
+  <Author>
+    <ID>8</ID>
+    <Bio>Java, A Beginner's Guide, 5th Edition</Bio>
+  </Author>
+  <Author>
+    <ID>9</ID>
+    <Bio>The Pioneer Woman Cooks: Food from My Frontier</Bio>
+  </Author>
+  <Author>
+    <ID>11</ID>
+    <Bio>The Fault in Our Stars</Bio>
+  </Author>
+  <Author>
+    <ID>12</ID>
+    <Bio>Divergent</Bio>
+  </Author>
+  <Author>
+    <ID>13</ID>
+    <Bio>The Book Thief</Bio>
+  </Author>
+  <Author>
+    <ID>14</ID>
+    <Bio>A Game of Thrones</Bio>
+  </Author>
+</Authors>

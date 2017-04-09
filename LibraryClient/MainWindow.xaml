@@ -1,0 +1,18 @@
+﻿<Window x:Class="LibraryClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryClient"
+        mc:Ignorable="d"
+        Title="Library Database Client" Height="500" Width="600" IsVisibleChanged="Window_IsVisibleChanged" Closing="Window_Closing" Closed="Window_Closed">
+    <Grid>
+        <TextBox x:Name="SearchBox" HorizontalAlignment="Left" Height="23" Margin="91,220,0,0" TextWrapping="Wrap" Text="Please enter a search term..." VerticalAlignment="Top" Width="310" KeyDown="SearchBox_KeyDown" FontStyle="Italic" FontWeight="Thin" GotFocus="SearchBox_GotFocus"/>
+        <Button x:Name="LogInButton" Content="Log In" HorizontalAlignment="Right" Margin="0,10,10.333,0" VerticalAlignment="Top" Width="75" Foreground="Red" Background="Transparent" BorderBrush="Transparent" RenderTransformOrigin="0.504,0.5" Click="LogInButton_Click" HorizontalContentAlignment="Right"/>
+        <Button x:Name="SearchButton" Content="Search" HorizontalAlignment="Left" Margin="430,219,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Click="SearchButton_Click"/>
+        <Label x:Name="ErrorLabel" Content="Label" Margin="10,12,0,0" VerticalAlignment="Top" Height="93" HorizontalAlignment="Left" Width="195"/>
+        <Button x:Name="ExitButton" Content="Exit" HorizontalAlignment="Left" Margin="20,430,0,0" VerticalAlignment="Top" Width="75" Background="Transparent" Click="ExitButton_Click"/>
+        <Label x:Name="UserTypeLabel" Content="UserType" Margin="0,35,10.333,0" VerticalAlignment="Top" Width="85" HorizontalAlignment="Right" HorizontalContentAlignment="Right"/>
+
+    </Grid>
+</Window>

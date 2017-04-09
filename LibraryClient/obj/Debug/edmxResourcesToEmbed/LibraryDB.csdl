@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LocalLibraryDBLoader.LibraryDataBaseContextModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Author">
+    <Key>
+      <PropertyRef Name="PersonId" />
+    </Key>
+    <Property Name="PersonId" Type="Int32" Nullable="false" />
+    <Property Name="Bio" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Person" Relationship="Self.FK_dbo_Authors_dbo_People_PersonId" FromRole="Authors" ToRole="People" />
+    <NavigationProperty Name="Books" Relationship="Self.FK_dbo_Books_dbo_Authors_Author_PersonId" FromRole="Authors" ToRole="Books" />
+  </EntityType>
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="BookId" />
+    </Key>
+    <Property Name="BookId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ISBN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NumPages" Type="Int32" Nullable="false" />
+    <Property Name="Subject" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Publisher" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="YearPublished" Type="Int32" Nullable="false" />
+    <Property Name="Language" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NumberOfCopies" Type="Int32" Nullable="false" />
+    <Property Name="Author_PersonId" Type="Int32" />
+    <NavigationProperty Name="Author" Relationship="Self.FK_dbo_Books_dbo_Authors_Author_PersonId" FromRole="Books" ToRole="Authors" />
+    <NavigationProperty Name="CheckOutLogs" Relationship="Self.FK_dbo_CheckOutLogs_dbo_Books_Book_BookId" FromRole="Books" ToRole="CheckOutLogs" />
+  </EntityType>
+  <EntityType Name="Cardholder">
+    <Key>
+      <PropertyRef Name="PersonId" />
+    </Key>
+    <Property Name="PersonId" Type="Int32" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LibraryCardId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Person" Relationship="Self.FK_dbo_Cardholders_dbo_People_PersonId" FromRole="Cardholders" ToRole="People" />
+    <NavigationProperty Name="CheckOutLogs" Relationship="Self.FK_dbo_CheckOutLogs_dbo_Cardholders_Cardholder_PersonId" FromRole="Cardholders" ToRole="CheckOutLogs" />
+  </EntityType>
+  <EntityType Name="CheckOutLog">
+    <Key>
+      <PropertyRef Name="CheckOutLogId" />
+    </Key>
+    <Property Name="CheckOutLogId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CheckOutDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Book_BookId" Type="Int32" />
+    <Property Name="Cardholder_PersonId" Type="Int32" />
+    <NavigationProperty Name="Book" Relationship="Self.FK_dbo_CheckOutLogs_dbo_Books_Book_BookId" FromRole="CheckOutLogs" ToRole="Books" />
+    <NavigationProperty Name="Cardholder" Relationship="Self.FK_dbo_CheckOutLogs_dbo_Cardholders_Cardholder_PersonId" FromRole="CheckOutLogs" ToRole="Cardholders" />
+  </EntityType>
+  <EntityType Name="Librarian">
+    <Key>
+      <PropertyRef Name="PersonId" />
+    </Key>
+    <Property Name="PersonId" Type="Int32" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UserId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Person" Relationship="Self.FK_dbo_Librarians_dbo_People_PersonId" FromRole="Librarians" ToRole="People" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="PersonId" />
+    </Key>
+    <Property Name="PersonId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Author" Relationship="Self.FK_dbo_Authors_dbo_People_PersonId" FromRole="People" ToRole="Authors" />
+    <NavigationProperty Name="Cardholder" Relationship="Self.FK_dbo_Cardholders_dbo_People_PersonId" FromRole="People" ToRole="Cardholders" />
+    <NavigationProperty Name="Librarian" Relationship="Self.FK_dbo_Librarians_dbo_People_PersonId" FromRole="People" ToRole="Librarians" />
+  </EntityType>
+  <Association Name="FK_dbo_Authors_dbo_People_PersonId">
+    <End Role="People" Type="Self.Person" Multiplicity="1" />
+    <End Role="Authors" Type="Self.Author" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="PersonId" />
+      </Principal>
+      <Dependent Role="Authors">
+        <PropertyRef Name="PersonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Books_dbo_Authors_Author_PersonId">
+    <End Role="Authors" Type="Self.Author" Multiplicity="0..1" />
+    <End Role="Books" Type="Self.Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Authors">
+        <PropertyRef Name="PersonId" />
+      </Principal>
+      <Dependent Role="Books">
+        <PropertyRef Name="Author_PersonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_CheckOutLogs_dbo_Books_Book_BookId">
+    <End Role="Books" Type="Self.Book" Multiplicity="0..1" />
+    <End Role="CheckOutLogs" Type="Self.CheckOutLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Books">
+        <PropertyRef Name="BookId" />
+      </Principal>
+      <Dependent Role="CheckOutLogs">
+        <PropertyRef Name="Book_BookId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Cardholders_dbo_People_PersonId">
+    <End Role="People" Type="Self.Person" Multiplicity="1" />
+    <End Role="Cardholders" Type="Self.Cardholder" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="PersonId" />
+      </Principal>
+      <Dependent Role="Cardholders">
+        <PropertyRef Name="PersonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_CheckOutLogs_dbo_Cardholders_Cardholder_PersonId">
+    <End Role="Cardholders" Type="Self.Cardholder" Multiplicity="0..1" />
+    <End Role="CheckOutLogs" Type="Self.CheckOutLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cardholders">
+        <PropertyRef Name="PersonId" />
+      </Principal>
+      <Dependent Role="CheckOutLogs">
+        <PropertyRef Name="Cardholder_PersonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Librarians_dbo_People_PersonId">
+    <End Role="People" Type="Self.Person" Multiplicity="1" />
+    <End Role="Librarians" Type="Self.Librarian" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="PersonId" />
+      </Principal>
+      <Dependent Role="Librarians">
+        <PropertyRef Name="PersonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LibraryDB" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Authors" EntityType="Self.Author" />
+    <EntitySet Name="Books" EntityType="Self.Book" />
+    <EntitySet Name="Cardholders" EntityType="Self.Cardholder" />
+    <EntitySet Name="CheckOutLogs" EntityType="Self.CheckOutLog" />
+    <EntitySet Name="Librarians" EntityType="Self.Librarian" />
+    <EntitySet Name="People" EntityType="Self.Person" />
+    <AssociationSet Name="FK_dbo_Authors_dbo_People_PersonId" Association="Self.FK_dbo_Authors_dbo_People_PersonId">
+      <End Role="People" EntitySet="People" />
+      <End Role="Authors" EntitySet="Authors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Books_dbo_Authors_Author_PersonId" Association="Self.FK_dbo_Books_dbo_Authors_Author_PersonId">
+      <End Role="Authors" EntitySet="Authors" />
+      <End Role="Books" EntitySet="Books" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_CheckOutLogs_dbo_Books_Book_BookId" Association="Self.FK_dbo_CheckOutLogs_dbo_Books_Book_BookId">
+      <End Role="Books" EntitySet="Books" />
+      <End Role="CheckOutLogs" EntitySet="CheckOutLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Cardholders_dbo_People_PersonId" Association="Self.FK_dbo_Cardholders_dbo_People_PersonId">
+      <End Role="People" EntitySet="People" />
+      <End Role="Cardholders" EntitySet="Cardholders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_CheckOutLogs_dbo_Cardholders_Cardholder_PersonId" Association="Self.FK_dbo_CheckOutLogs_dbo_Cardholders_Cardholder_PersonId">
+      <End Role="Cardholders" EntitySet="Cardholders" />
+      <End Role="CheckOutLogs" EntitySet="CheckOutLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Librarians_dbo_People_PersonId" Association="Self.FK_dbo_Librarians_dbo_People_PersonId">
+      <End Role="People" EntitySet="People" />
+      <End Role="Librarians" EntitySet="Librarians" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

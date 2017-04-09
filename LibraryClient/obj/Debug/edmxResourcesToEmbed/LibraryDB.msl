@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LocalLibraryDBLoaderLibraryDataBaseContextModelStoreContainer" CdmEntityContainer="LibraryDB">
+    <EntitySetMapping Name="Authors">
+      <EntityTypeMapping TypeName="LocalLibraryDBLoader.LibraryDataBaseContextModel.Author">
+        <MappingFragment StoreEntitySet="Authors">
+          <ScalarProperty Name="PersonId" ColumnName="PersonId" />
+          <ScalarProperty Name="Bio" ColumnName="Bio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Books">
+      <EntityTypeMapping TypeName="LocalLibraryDBLoader.LibraryDataBaseContextModel.Book">
+        <MappingFragment StoreEntitySet="Books">
+          <ScalarProperty Name="BookId" ColumnName="BookId" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="NumPages" ColumnName="NumPages" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Publisher" ColumnName="Publisher" />
+          <ScalarProperty Name="YearPublished" ColumnName="YearPublished" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="NumberOfCopies" ColumnName="NumberOfCopies" />
+          <ScalarProperty Name="Author_PersonId" ColumnName="Author_PersonId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cardholders">
+      <EntityTypeMapping TypeName="LocalLibraryDBLoader.LibraryDataBaseContextModel.Cardholder">
+        <MappingFragment StoreEntitySet="Cardholders">
+          <ScalarProperty Name="PersonId" ColumnName="PersonId" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="LibraryCardId" ColumnName="LibraryCardId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CheckOutLogs">
+      <EntityTypeMapping TypeName="LocalLibraryDBLoader.LibraryDataBaseContextModel.CheckOutLog">
+        <MappingFragment StoreEntitySet="CheckOutLogs">
+          <ScalarProperty Name="CheckOutLogId" ColumnName="CheckOutLogId" />
+          <ScalarProperty Name="CheckOutDate" ColumnName="CheckOutDate" />
+          <ScalarProperty Name="Book_BookId" ColumnName="Book_BookId" />
+          <ScalarProperty Name="Cardholder_PersonId" ColumnName="Cardholder_PersonId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Librarians">
+      <EntityTypeMapping TypeName="LocalLibraryDBLoader.LibraryDataBaseContextModel.Librarian">
+        <MappingFragment StoreEntitySet="Librarians">
+          <ScalarProperty Name="PersonId" ColumnName="PersonId" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="People">
+      <EntityTypeMapping TypeName="LocalLibraryDBLoader.LibraryDataBaseContextModel.Person">
+        <MappingFragment StoreEntitySet="People">
+          <ScalarProperty Name="PersonId" ColumnName="PersonId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

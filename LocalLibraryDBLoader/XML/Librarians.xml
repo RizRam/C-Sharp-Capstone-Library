@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Contents of Librarians table in LibraryInformation database-->
+<Librarians>
+  <Librarian>
+    <ID>1</ID>
+    <Phone>2065551111</Phone>
+    <UserID>msmith</UserID>
+    <Password>abc2014</Password>
+  </Librarian>
+  <Librarian>
+    <ID>2</ID>
+    <Phone>2065552222</Phone>
+    <UserID>kanderson</UserID>
+    <Password>xyz2014</Password>
+  </Librarian>
+  <Librarian>
+    <ID>3</ID>
+    <Phone>2065553333</Phone>
+    <UserID>lroberts</UserID>
+    <Password>def2014</Password>
+  </Librarian>
+  <Librarian>
+    <ID>4</ID>
+    <Phone>2065554444</Phone>
+    <UserID>jhenson</UserID>
+    <Password>ghi2014</Password>
+  </Librarian>
+  <Librarian>
+    <ID>5</ID>
+    <Phone>2065556666</Phone>
+    <UserID>ataylor</UserID>
+    <Password>jkl2014</Password>
+  </Librarian>
+  <Librarian>
+    <ID>6</ID>
+    <Phone>2063353794</Phone>
+    <UserID>hoyoung</UserID>
+    <Password>holim1</Password>
+  </Librarian>
+</Librarians>

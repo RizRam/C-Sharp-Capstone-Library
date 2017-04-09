@@ -1,0 +1,126 @@
+D:\C#\Capstone\Capstone Project\Capstone\LibraryClient\bin\Debug\LibraryClient.exe.config
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\bin\Debug\LibraryClient.exe.config
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\obj\Debug\LibraryClient.csprojResolveAssemblyReference.cache
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\obj\Debug\MainWindow.g.cs
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\obj\Debug\App.g.cs
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\obj\Debug\LibraryClient_MarkupCompile.cache
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\obj\Debug\LibraryClient_MarkupCompile.lref
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\bin\Debug\LibraryClient.exe
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\bin\Debug\LibraryClient.pdb
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\bin\Debug\EntityFramework.dll
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\bin\Debug\EntityFramework.xml
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\obj\Debug\MainWindow.baml
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\obj\Debug\LibraryClient.g.resources
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\obj\Debug\LibraryClient.Properties.Resources.resources
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\obj\Debug\LibraryClient.csproj.GenerateResource.Cache
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\obj\Debug\LibraryClient.exe
+C:\Users\RizMac\OneDrive\C#\Capstone\Capstone Project\Capstone\LibraryClient\obj\Debug\LibraryClient.pdb
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\bin\Debug\LibraryClient.exe.config
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\obj\Debug\LibraryClient.exe
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\obj\Debug\LibraryClient.pdb
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\bin\Debug\LibraryClient.exe
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\bin\Debug\LibraryClient.pdb
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\bin\Debug\EntityFramework.dll
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\bin\Debug\EntityFramework.xml
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\obj\Debug\LibraryClient.csprojResolveAssemblyReference.cache
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\obj\Debug\MainWindow.g.cs
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\obj\Debug\App.g.cs
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\obj\Debug\LibraryClient_MarkupCompile.cache
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\obj\Debug\LibraryClient_MarkupCompile.lref
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\obj\Debug\MainWindow.baml
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\obj\Debug\LibraryClient.g.resources
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\obj\Debug\LibraryClient.Properties.Resources.resources
+C:\Users\RizMac\Desktop\Capstone\LibraryClient\obj\Debug\LibraryClient.csproj.GenerateResource.Cache
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\bin\Debug\LibraryClient.exe.config
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\obj\Debug\LibraryClient.exe
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\obj\Debug\LibraryClient.pdb
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\obj\Debug\LibraryClient.csprojResolveAssemblyReference.cache
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\obj\Debug\MainWindow.g.cs
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\obj\Debug\App.g.cs
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\obj\Debug\LibraryClient_MarkupCompile.cache
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\obj\Debug\LibraryClient_MarkupCompile.lref
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\bin\Debug\LibraryClient.exe
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\bin\Debug\LibraryClient.pdb
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\bin\Debug\EntityFramework.dll
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\bin\Debug\EntityFramework.xml
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\obj\Debug\MainWindow.baml
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\obj\Debug\LibraryClient.g.resources
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\obj\Debug\LibraryClient.Properties.Resources.resources
+C:\Users\RizMac\Desktop\Capstone B\LibraryClient\obj\Debug\LibraryClient.csproj.GenerateResource.Cache
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\bin\Debug\LibraryClient.exe.config
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\obj\Debug\LibraryClient.exe
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\obj\Debug\LibraryClient.pdb
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\bin\Debug\LibraryClient.exe
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\bin\Debug\LibraryClient.pdb
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\bin\Debug\EntityFramework.dll
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\bin\Debug\EntityFramework.xml
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\obj\Debug\LibraryClient.csprojResolveAssemblyReference.cache
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\obj\Debug\MainWindow.g.cs
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\obj\Debug\App.g.cs
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\obj\Debug\LibraryClient_MarkupCompile.cache
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\obj\Debug\LibraryClient_MarkupCompile.lref
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\obj\Debug\MainWindow.baml
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\obj\Debug\LibraryClient.g.resources
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\obj\Debug\LibraryClient.Properties.Resources.resources
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\obj\Debug\LibraryClient.csproj.GenerateResource.Cache
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\bin\Debug\LocalLibraryDBLoader.dll
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\bin\Debug\LocalLibraryDBLoader.pdb
+C:\Users\RizMac\Desktop\Capstone C\LibraryClient\obj\Debug\LibraryClient_Content.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\bin\Debug\LibraryClient.exe.config
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\LibraryClient.exe
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\LibraryClient.pdb
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\bin\Debug\LibraryClient.exe
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\bin\Debug\LibraryClient.pdb
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\bin\Debug\EntityFramework.dll
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\bin\Debug\LocalLibraryDBLoader.dll
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\bin\Debug\LocalLibraryDBLoader.pdb
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\bin\Debug\EntityFramework.xml
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\LibraryClient.csprojResolveAssemblyReference.cache
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\App.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\LibraryClient_Content.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\LibraryClient_MarkupCompile.cache
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\LibraryClient_MarkupCompile.lref
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\LibraryClient.g.resources
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\LibraryClient.Properties.Resources.resources
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\LibraryClient.csproj.GenerateResource.Cache
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\MainWindow.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\MainWindow.baml
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\SearchResults.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\SearchResults.baml
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\BookDetails.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\BookDetails.baml
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\LogIn.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\LogIn.baml
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\LibrarianMenu.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\LibrarianMenu.baml
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\LibrarianReport.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\LibrarianReport.baml
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\CardholdersReport.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\CardholdersReport.baml
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\AuthorsReport.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\AuthorsReport.baml
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\OverdueReport.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\OverdueReport.baml
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\BookCopiesDialog.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\BookCopiesDialog.baml
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\EditAuthorDialog.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\EditAuthorDialog.baml
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\AddAuthorDialog.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\AddAuthorDialog.baml
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\AddBookDialog.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\AddBookDialog.baml
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\CheckInWindow.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\CheckInWindow.baml
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\CheckOutWindow.g.cs
+C:\Users\RizMac\Desktop\Capstone E\LibraryClient\obj\Debug\CheckOutWindow.baml

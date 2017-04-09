@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f2760ec8b7214a08ae6843041a2dd92a" Name="Diagram1">
+        <EntityTypeShape EntityType="LocalLibraryDBLoader.LibraryDataBaseContextModel.Author" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LocalLibraryDBLoader.LibraryDataBaseContextModel.Book" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LocalLibraryDBLoader.LibraryDataBaseContextModel.Cardholder" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LocalLibraryDBLoader.LibraryDataBaseContextModel.CheckOutLog" Width="1.5" PointX="7.5" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LocalLibraryDBLoader.LibraryDataBaseContextModel.Librarian" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LocalLibraryDBLoader.LibraryDataBaseContextModel.Person" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <AssociationConnector Association="LocalLibraryDBLoader.LibraryDataBaseContextModel.FK_dbo_Authors_dbo_People_PersonId" ManuallyRouted="false" />
+        <AssociationConnector Association="LocalLibraryDBLoader.LibraryDataBaseContextModel.FK_dbo_Books_dbo_Authors_Author_PersonId" ManuallyRouted="false" />
+        <AssociationConnector Association="LocalLibraryDBLoader.LibraryDataBaseContextModel.FK_dbo_CheckOutLogs_dbo_Books_Book_BookId" ManuallyRouted="false" />
+        <AssociationConnector Association="LocalLibraryDBLoader.LibraryDataBaseContextModel.FK_dbo_Cardholders_dbo_People_PersonId" ManuallyRouted="false" />
+        <AssociationConnector Association="LocalLibraryDBLoader.LibraryDataBaseContextModel.FK_dbo_CheckOutLogs_dbo_Cardholders_Cardholder_PersonId" ManuallyRouted="false" />
+        <AssociationConnector Association="LocalLibraryDBLoader.LibraryDataBaseContextModel.FK_dbo_Librarians_dbo_People_PersonId" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

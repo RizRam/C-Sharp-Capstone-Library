@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Contents of Books table in LibraryInformation database-->
+<Books>
+  <Book>
+    <BookID>1</BookID>
+    <ISBN>1430242337</ISBN>
+    <Title>Pro C# 5.0 and the .NET 4.5</Title>
+    <AuthorID>7</AuthorID>
+    <NumPages>1560</NumPages>
+    <Subject>Programming</Subject>
+    <Description>The latest changes to the C# language specification and new advances in the .NET Framework.</Description>
+    <Publisher>Apress</Publisher>
+    <YearPublished>2012</YearPublished>
+    <Language>English</Language>
+    <NumberOfCopies>3</NumberOfCopies>
+  </Book>
+  <Book>
+    <BookID>2</BookID>
+    <ISBN>0071606327</ISBN>
+    <Title>Java, A Beginner's Guide.</Title>
+    <AuthorID>8</AuthorID>
+    <NumPages>640</NumPages>
+    <Subject>Programming</Subject>
+    <Description>Learn the fundamentals of Java programming in no time from bestselling programming.</Description>
+    <Publisher>McGraw-Hill Osborne Media</Publisher>
+    <YearPublished>2011</YearPublished>
+    <Language>English</Language>
+    <NumberOfCopies>2</NumberOfCopies>
+  </Book>
+  <Book>
+    <BookID>3</BookID>
+    <ISBN>9780061997181</ISBN>
+    <Title>Food from My Frontier</Title>
+    <AuthorID>9</AuthorID>
+    <NumPages>304</NumPages>
+    <Subject>Cookbooks, Food &amp; Wine</Subject>
+    <Description>Drummond invites fans into her world with irresistible recipes and photos.</Description>
+    <Publisher>William Morrow Cookbooks</Publisher>
+    <YearPublished>2012</YearPublished>
+    <Language>English</Language>
+    <NumberOfCopies>1</NumberOfCopies>
+  </Book>
+  <Book>
+    <BookID>4</BookID>
+    <ISBN>0525478817</ISBN>
+    <Title>The Fault in Our Stars</Title>
+    <AuthorID>11</AuthorID>
+    <NumPages>318</NumPages>
+    <Subject>Love &amp; Romance</Subject>
+    <Description>This is a love story, one of the most genuine and moving ones in recent American fiction</Description>
+    <Publisher>Dutton Books</Publisher>
+    <YearPublished>2012</YearPublished>
+    <Language>English</Language>
+    <NumberOfCopies>5</NumberOfCopies>
+  </Book>
+  <Book>
+    <BookID>5</BookID>
+    <ISBN>9780062024039</ISBN>
+    <Title>Divergent</Title>
+    <AuthorID>12</AuthorID>
+    <NumPages>487</NumPages>
+    <Subject>Science Fiction</Subject>
+    <Description>society is divided into five factions, each dedicated to the cultivation of a particular virtue</Description>
+    <Publisher>Katherine Tegen Books</Publisher>
+    <YearPublished>2012</YearPublished>
+    <Language>English</Language>
+    <NumberOfCopies>2</NumberOfCopies>
+  </Book>
+  <Book>
+    <BookID>6</BookID>
+    <ISBN>0375842209</ISBN>
+    <Title>The Book Thief</Title>
+    <AuthorID>13</AuthorID>
+    <NumPages>576</NumPages>
+    <Subject>Historical Fiction</Subject>
+    <Description>Markus Zusak's unforgettable story is about the ability of books to feed the soul</Description>
+    <Publisher>Alfred A. Knopf</Publisher>
+    <YearPublished>2007</YearPublished>
+    <Language>English</Language>
+    <NumberOfCopies>1</NumberOfCopies>
+  </Book>
+  <Book>
+    <BookID>7</BookID>
+    <ISBN>0345535529</ISBN>
+    <Title>A Game of Thrones</Title>
+    <AuthorID>14</AuthorID>
+    <NumPages>5216</NumPages>
+    <Subject>Epic</Subject>
+    <Description>A Song of Ice and Fire has earned George R. R. Martin</Description>
+    <Publisher>Bantam</Publisher>
+    <YearPublished>2013</YearPublished>
+    <Language>English</Language>
+    <NumberOfCopies>10</NumberOfCopies>
+  </Book>
+</Books>

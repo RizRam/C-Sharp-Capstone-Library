@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Contents of Cardholders table in LibraryInformation database-->
+<Cardholders>
+  <Cardholder>
+    <ID>10</ID>
+    <Phone>2065523833</Phone>
+    <LibraryCardID>sonete77</LibraryCardID>
+  </Cardholder>
+  <Cardholder>
+    <ID>15</ID>
+    <Phone>2063353794</Phone>
+    <LibraryCardID>neverb4</LibraryCardID>
+  </Cardholder>
+  <Cardholder>
+    <ID>16</ID>
+    <Phone>4256540708</Phone>
+    <LibraryCardID>nevereverb4</LibraryCardID>
+  </Cardholder>
+</Cardholders>
